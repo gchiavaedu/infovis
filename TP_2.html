@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trabajo practico 2</title>
+  <style>
+    body {
+      background: linear-gradient(45deg, #D4FFA6, #86FF6E, #00B300); /* Degradado de verde */
+      background-size: 600% 600%; /* Ajuste del tamaño del degradado */
+      animation: gradientAnimation 15s infinite; /* Animación más lenta para el degradado */
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    body {
+            text-align: center;
+            background-color: #d8b8e2;
+            margin: 100px;
+        }
+    h1 {
+      text-align: center;
+      font-family: sans-serif, Magic R;
+    }
+    
+    h2 {
+      text-align: center;
+    }    
+
+    p {
+      text-align: center;
+      font-family: Garamond, serif; /* Cambia la fuente aquí */
+      font-size: 22px; /* Aumenta el tamaño de la letra aquí */
+      margin-top: 20px; /* Agrega espacio superior aquí */
+    }
+  </style>
+</head>
+<body>
+  <h1>Trabajo práctico 2</h1>
+  <h2>Allende Valentina - Chiavarini Guido - Fernandez Ferrara Araceli</h2>
+  <p>En este trabajo práctico se analizan los resultados de las PASO (Primarias Abiertas Simultáneas Obligatorias) y de las Elecciones Generales 2023 de Argentina. Para las PASO, se consideraron a los partidos que obtuvieron el 1,5% de los votos necesarios para avanzar a las Elecciones Generales. Y en el caso de las Elecciones Generales se tomaron en cuenta a los 3 principales partidos. Los datos fueron obtenidos <a href="https://www.argentina.gob.ar/dine/resultados-electorales/elecciones-2023" target="_blank">aquí</a>. El trabajo fue elaborado con Tableau.</p>
+    <!-- ... Código de Tableau ... -->
+  <br>
+  <br>
+    <div id="tableauContainer">
+        <iframe src="https://public.tableau.com/views/TP2_Analisis_Paso/Story1?:showVizHome=no&:embed=true" width="1030" height="550"></iframe>
+    </div>
+  <br>
+  <br>
+  <div id="tableauContainer">
+        <iframe src="https://public.tableau.com/views/Elecciones_generales_2023/Story1?:showVizHome=no&:embed=true" width="1030" height="550"></iframe>
+    </div>
+  <br>
+  <br>
+</body>
+</html>
